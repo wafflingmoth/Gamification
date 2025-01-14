@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bleweowpchuo1"]
+
+[node name="Cutscene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="DialogueLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 296.0
+offset_top = 195.0
+offset_right = 810.0
+offset_bottom = 408.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NextButton" type="Button" parent="DialogueLabel"]
+layout_mode = 0
+offset_left = 641.0
+offset_top = 344.0
+offset_right = 746.0
+offset_bottom = 403.0
+text = "Next"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="DialogueLabel/NextButton"]

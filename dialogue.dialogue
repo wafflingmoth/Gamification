@@ -1,0 +1,16 @@
+~ this_is_a_node_title
+Investigator: Ah, you must be the investigator...
+Investigator: Victor White, age 45, was found dead in his hotel room...
+Investigator: No signs of forced entry, but there's definitely evidence pointing to foul play...
+Investigator:We've got three key suspects. It's up to you to piece together the evidence...
+Investigator:Start with the crime scene. Every piece of evidence counts!
+
+Investigator: Here are some choices.
+- First one
+	Nathan: You picked the first one.
+- Second one
+	Nathan: You picked the second one.
+- Start again => this_is_a_node_title
+- End the conversation => END
+Nathan: For more information see the online documentation.
+=> END
